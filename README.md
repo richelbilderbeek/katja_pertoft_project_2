@@ -17,6 +17,13 @@ Song number|Description
 4          |Zen music
 5          |clocks
 
+## Usage
+
+Per playback Module, upload the MP3 file you need.
+It must be called `00001.MP3`.
+If you want a second song, call it `00002.MP3`.
+If you want a third song, call it `00003.MP3`, etc...
+
 ## Connections
 
 From                  |To
