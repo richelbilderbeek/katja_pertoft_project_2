@@ -34,19 +34,53 @@ Pushbutton side 2     |Arduino pin 8
 Pushbutton side 2     |a 10k Ohm resistance, side 1
 Arduino GND           |a 10k Ohm resistance, side 2
 
+![Complete schematic](schematic_complete.png)
+
+> Complete schematic
+
+![Schematic zoom on button](schematic_zoom_button.png)
+
+> Schematic zoom on button
+
+![Schematic zoom on DY](schematic_zoom_dy.png)
+
+> Schematic zoom on DY
+
 ## Notes
 
 ### Using the Redboard with Arduino
 
 Use a regular Arduino Uno. They are compatible.
 
-### Installing the DY-SV8F MP3 Voice Playback Module
-
-- [GitHub](https://github.com/SnijderC/dyplayer/tree/main)
+### Setup of the DY-SV8F MP3 Voice Playback Module
 
 About the DIP switches:
 
 > If you have a board with DIP switches, set CON3 to on, CON1 and CON2 should remain off
+
+### Setup of the DY-SV8F MP3 Voice Playback Module
+
+- [GitHub](https://github.com/SnijderC/dyplayer/tree/main)
+
+![Download a zip](1_download_zip.png)
+
+> Download a zip, from [GitHub](https://github.com/SnijderC/dyplayer/tree/main)
+
+![Include library](2_include_library.png)
+
+> In the Arduino IDE, include a library
+
+![Select the zip file](3_select_zip_file.png)
+
+> Select the zip file
+
+![Library is now added](4_library_added.png)
+
+> The library is now added
+
+![The library has examples](5_library_has_examples.png)
+
+> The library has examples
 
 ### [ABANDONED] Installing the Qwiic Trigger MP3 Arduino library
 
