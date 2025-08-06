@@ -13,11 +13,11 @@
 
 Song number|Description
 -----------|------------------------
-1          |?
-2          |wind, start directly
-3          |?
-4          |talking, starts directly
-5          |?
+1          |bells
+2          |wind
+3          |talking
+4          |Zen music
+5          |clocks
 
 ## Connections
 

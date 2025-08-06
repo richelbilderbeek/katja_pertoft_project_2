@@ -16,6 +16,44 @@ const int builtin_led_pin{13};
 int current_song{1};
 const int volume{30}; // Max volume is 30
 
+void play_current_song()
+{
+  switch (current_song)
+  {
+    case 1: 
+    {
+      char path[] = "/00001.MP3";
+      player.playSpecifiedDevicePath(DY::Device::Flash, path); 
+      break;
+    }
+    case 2: 
+    {
+      char path[] = "/00002.MP3";
+      player.playSpecifiedDevicePath(DY::Device::Flash, path); 
+      break;
+    }
+    case 3: 
+    {
+      char path[] = "/00003.MP3";
+      player.playSpecifiedDevicePath(DY::Device::Flash, path); 
+      break;
+    }
+    case 4: 
+    {
+      char path[] = "/00004.MP3";
+      player.playSpecifiedDevicePath(DY::Device::Flash, path); 
+      break;
+    }
+    case 5: 
+    {
+      char path[] = "/00005.MP3";
+      player.playSpecifiedDevicePath(DY::Device::Flash, path); 
+      break;
+    }
+    default: break;
+  }
+}
+
 void setup() {
   pinMode(button_pin, INPUT);
   pinMode(builtin_led_pin, OUTPUT);
@@ -29,7 +67,7 @@ void loop() {
   if (button_pressed)
   {
     digitalWrite(builtin_led_pin, HIGH);
-    player.playSpecified(current_song);
+    play_current_song();
     delay(10000);
     digitalWrite(builtin_led_pin, LOW);
     ++current_song;
