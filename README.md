@@ -2,8 +2,6 @@
 
 - [Redboard](https://www.sparkfun.com/redboards)
 - [DY-SV8F MP3 Voice Playback Module](https://electropeak.com/learn/interfacing-dy-sv8f-mp3-voice-playback-module-with-arduino/)
-- [ABANDONED] Qwicc Trigger MP3:
-  - [ABANDONED] [GitHub](https://github.com/sparkfun/Qwiic_MP3_Trigger)
 
 ## Goal
 
@@ -81,11 +79,3 @@ About the DIP switches:
 ![The library has examples](5_library_has_examples.png)
 
 > The library has examples
-
-### [ABANDONED] Installing the Qwiic Trigger MP3 Arduino library
-
-This goes from the Arduino IDE:
-
-![Qwicc Trigger MP3 Arduino library](qwiic_mp3_trigger_arduino_library.png)
-
-> The Qwicc Trigger MP3 Arduino library
