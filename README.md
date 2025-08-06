@@ -56,6 +56,19 @@ About the DIP switches:
 
 > If you have a board with DIP switches, set CON3 to on, CON1 and CON2 should remain off
 
+```
++----------------+
+| ON DIP         |
+| +--+ +--+ +--+ |
+| |  | |  | |XX| |
+| |  | |  | |  | |
+| |  | |  | |  | |
+| |XX| |XX| |  | |
+| +--+ +--+ +--+ |
+|  1    2    3   |
++----------------+
+```
+
 ### Setup of the DY-SV8F MP3 Voice Playback Module
 
 - [GitHub](https://github.com/SnijderC/dyplayer/tree/main)
