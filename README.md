@@ -17,7 +17,7 @@ Song number|Description
 4          |Zen music
 5          |clocks
 
-## Usage
+## Uploading files
 
 Per playback Module, upload the MP3 file you need.
 It must be called `00001.MP3`.
